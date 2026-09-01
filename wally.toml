@@ -1,5 +1,5 @@
 [package]
-name = "tstudio/route"
+name = "tunermca-ai/route"
 version = "1.0.0"
 description = "Command console"
 license = "MIT"

@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Route" width="380">
 </p>
 
-[![Version](https://img.shields.io/badge/version-1.0.0-eab454)](https://github.com/tunermca-ai/Route.lua/releases) [![Luau](https://img.shields.io/badge/luau-strict-2a2d34)](https://luau.org) [![Rojo](https://img.shields.io/badge/rojo-ready-2a2d34)](https://rojo.space) [![Wally](https://img.shields.io/badge/wally-tstudio%2Froute-2a2d34)](https://wally.run)
+[![Version](https://img.shields.io/badge/version-1.0.0-eab454)](https://github.com/tunermca-ai/Route.lua/releases) [![Luau](https://img.shields.io/badge/luau-strict-2a2d34)](https://luau.org) [![Rojo](https://img.shields.io/badge/rojo-ready-2a2d34)](https://rojo.space) [![Wally](https://img.shields.io/badge/wally-tunermca--ai%2Froute-2a2d34)](https://wally.run)
 
 A server-authoritative admin command framework for Roblox.
 
@@ -34,7 +34,7 @@ Every admin console eventually gets exploited through the one thing it trusted t
 
 ```toml
 [dependencies]
-Route = "tstudio/route@1.0.0"
+Route = "tunermca-ai/route@1.0.0"
 ```
 
 **Manual / Rojo**
