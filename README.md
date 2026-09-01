@@ -34,7 +34,7 @@ Every admin console eventually gets exploited through the one thing it trusted t
 
 ```toml
 [dependencies]
-Route = "tstudio/route.lua@0.1.0"
+Route = "tstudio/route.lua@1.0.0"
 ```
 
 **Manual / Rojo**

@@ -1,6 +1,6 @@
 [package]
 name = "tstudio/route.lua"
-version = "0.1.0"
+version = "1.0.0"
 description = "Command console"
 license = "MIT"
 authors = ["Tuner Studio!"]
