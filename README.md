@@ -2,11 +2,15 @@
   <img src="assets/logo.png" alt="Route" width="380">
 </p>
 
-[![Version](https://img.shields.io/badge/version-1.0.0-eab454)](https://github.com/tunermca-ai/Route.lua/releases) [![Luau](https://img.shields.io/badge/luau-strict-2a2d34)](https://luau.org) [![Rojo](https://img.shields.io/badge/rojo-ready-2a2d34)](https://rojo.space) [![Wally](https://img.shields.io/badge/wally-tunermca--ai%2Froute-2a2d34)](https://wally.run)
+<div align="center">
 
-A server-authoritative admin command framework for Roblox.
+[![Version](https://img.shields.io/badge/version-1.0.0-eab454)](https://github.com/tunermca-ai/Route/releases) [![Luau](https://img.shields.io/badge/luau-strict-2a2d34)](https://luau.org) [![Rojo](https://img.shields.io/badge/rojo-ready-2a2d34)](https://rojo.space) [![Wally](https://img.shields.io/badge/wally-tunermca--ai%2Froute-2a2d34)](https://wally.run)
 
-**[Documentation →](https://tunermca-ai.github.io/Route.lua.github.io/)** — [Installation](https://tunermca-ai.github.io/Route.lua.github.io/#/install) · [Quick start](https://tunermca-ai.github.io/Route.lua.github.io/#/quickstart) · [Commands](https://tunermca-ai.github.io/Route.lua.github.io/#/commands) · [Examples](https://tunermca-ai.github.io/Route.lua.github.io/#/examples) · [Security model](https://tunermca-ai.github.io/Route.lua.github.io/#/security)
+**A server-authoritative admin command framework for Roblox.**
+
+[Documentation](https://tunermca-ai.github.io/Route.github.io/) · [Installation](https://tunermca-ai.github.io/Route.github.io/#/install) · [Quick start](https://tunermca-ai.github.io/Route.github.io/#/quickstart) · [Commands](https://tunermca-ai.github.io/Route.github.io/#/commands) · [Examples](https://tunermca-ai.github.io/Route.github.io/#/examples) · [Security model](https://tunermca-ai.github.io/Route.github.io/#/security)
+
+</div>
 
 ```
 route> give Nikilis Owner
@@ -41,7 +45,7 @@ Route = "tunermca-ai/route@1.0.0"
 
 Drop the `Src/Route` folder from this repo into `ServerScriptService` as `Route`. That's the entire install — nothing else needs to be authored anywhere else in your place.
 
-Full walkthrough: [Installation →](https://tunermca-ai.github.io/Route.lua.github.io/#/install)
+Full walkthrough: [Installation →](https://tunermca-ai.github.io/Route.github.io/#/install)
 
 ## Quick start
 
@@ -74,7 +78,7 @@ return Command.new("givecoins")
 	end)
 ```
 
-See [Quick start →](https://tunermca-ai.github.io/Route.lua.github.io/#/quickstart) for the full option list, [Writing a command →](https://tunermca-ai.github.io/Route.lua.github.io/#/writing) for the details, and [Examples →](https://tunermca-ai.github.io/Route.lua.github.io/#/examples) for four complete, explained commands covering durations, guards, custom types, and enums.
+See [Quick start →](https://tunermca-ai.github.io/Route.github.io/#/quickstart) for the full option list, [Writing a command →](https://tunermca-ai.github.io/Route.github.io/#/writing) for the details, and [Examples →](https://tunermca-ai.github.io/Route.github.io/#/examples) for four complete, explained commands covering durations, guards, custom types, and enums.
 
 ## What's included
 
@@ -89,7 +93,7 @@ See [Quick start →](https://tunermca-ai.github.io/Route.lua.github.io/#/quicks
 | Fun | `explode` `fling` `gravity` `size` `spin` |
 | Route meta | `help` `history` `theme` `clear` |
 
-Full list with descriptions: [Commands included →](https://tunermca-ai.github.io/Route.lua.github.io/#/commands)
+Full list with descriptions: [Commands included →](https://tunermca-ai.github.io/Route.github.io/#/commands)
 
 ## Console themes
 
@@ -102,7 +106,7 @@ Every player gets a console with F2, autocomplete, command history, and a live u
 | `terminal` | Monospace, high-contrast, green-on-black |
 | `floating` | A centered floating window |
 
-More on themes and the console: [Client console →](https://tunermca-ai.github.io/Route.lua.github.io/#/console)
+More on themes and the console: [Client console →](https://tunermca-ai.github.io/Route.github.io/#/console)
 
 ## Permissions
 
@@ -114,11 +118,11 @@ route> give Nikilis Tester
 
 `Owner` and `Admin` always exist with full access — nothing to set up first. Nodes are dot-path strings checked with wildcard matching, and custom roles start with nothing until you grant them permissions. Studio bypasses every check by default so you can test freely.
 
-Full guide: [Permissions & roles →](https://tunermca-ai.github.io/Route.lua.github.io/#/permissions)
+Full guide: [Permissions & roles →](https://tunermca-ai.github.io/Route.github.io/#/permissions)
 
 ## Changelog
 
-See [Changelog →](https://tunermca-ai.github.io/Route.lua.github.io/#/changelog) for the full version history.
+See [Changelog →](https://tunermca-ai.github.io/Route.github.io/#/changelog) for the full version history.
 
 ## License
 
