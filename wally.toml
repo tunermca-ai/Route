@@ -1,5 +1,5 @@
 [package]
-name = "tstudio/route.lua"
+name = "tstudio/route"
 version = "1.0.0"
 description = "Command console"
 license = "MIT"
